@@ -95,5 +95,29 @@ document.addEventListener('DOMContentLoaded', function() {
                     checkPasswordStrength(password);
                 }
             });
+
+                        // Copy to clipboard
+            copyBtn.addEventListener('click', function() {
+                if (passwordDisplay.textContent === 'Your password will appear here') {
+                    alert('Please generate a password first!');
+                    return;
+                }
+                
+                navigator.clipboard.writeText(passwordDisplay.textContent)
+                    .then(() => {
+                        // Show notification
+                        notification.classList.add('show');
+                        setTimeout(() => {
+                            notification.classList.remove('show');
+                        }, 2000);
+                    })
+                    .catch(err => {
+                        alert('Failed to copy: ' + err);
+                    });
+            });
+            
+            // Generate initial password on page load
+            generateBtn.click();
+        });
             
 
