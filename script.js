@@ -13,10 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
             const notification = document.getElementById('notification');
             
             // Character sets
-            // const uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-            // const lowercase = 'abcdefghijklmnopqrstuvwxyz';
-            // const numbers = '0123456789';
-            // const symbols = '!@#$%^&*()_+-=[]{}|;:,.<>?';
+            const uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+            const lowercase = 'abcdefghijklmnopqrstuvwxyz';
+            const numbers = '0123456789';
+            
             
             // Update length value display
             lengthSlider.addEventListener('input', function() {
