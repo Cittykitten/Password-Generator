@@ -16,8 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
             const lowercase = 'abcdefghijklmnopqrstuvwxyz';
             const numbers = '0123456789';
+            const symbols = '!@#$%^&*()_+-=[]{}|;:,.<>?';
             
-            
+
             // Update length value display
             lengthSlider.addEventListener('input', function() {
                 lengthValue.textContent = this.value;
