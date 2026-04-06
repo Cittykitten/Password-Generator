@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const strengthText = document.getElementById('strengthText');
             const strengthFill = document.getElementById('strengthFill');
             const notification = document.getElementById('notification');
-            
+
             // Character sets
             const uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
             const lowercase = 'abcdefghijklmnopqrstuvwxyz';
