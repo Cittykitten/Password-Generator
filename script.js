@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const copyBtn = document.getElementById('copyBtn');
             const strengthText = document.getElementById('strengthText');
             const strengthFill = document.getElementById('strengthFill');
-            const notification = document.getElementById('notification');
+            const notification = document.getElementById('notification'); 
 
             // Character sets
             const uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
